@@ -1,0 +1,32 @@
+body
+{
+    font-family: 'Special Elie', cursive;
+}
+
+h3
+{
+    font-size: 25px !important;
+}
+
+.btn-success:hover
+{
+   background-color: magenta;
+}
+
+canvas
+{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example 
+{
+    from {box-shadow: 5px 5px 18px purple;}
+    to {box-shadow: 5px 5px 18px palevioletred;}
+}
+
+button
+{
+    border-radius: 15px;
+}
